@@ -1,13 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author pulpo
- */
+// se importa esto para poder leer y escribir datos
+import java.util.Scanner;
 public class Punto_4 {
-    
+    public static void main(String[]args) {
+        //algoritmo para convertir metros a pies y pulgadas
+       float metros, pies, pulgadas;
+       
+       metros = 85.63f;
+       pies = metros * 3.28f;
+       pulgadas = pies * 12f;
+       
+       System.out.println("los "+ metros +" metros son igual a " + pies + " pies" );
+       System.out.println("los "+ metros +" metros son igual a " + pulgadas + " pulgadas" );
+    }
 }
