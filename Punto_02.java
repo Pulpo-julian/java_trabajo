@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_2 {
+public class Punto_02 {
     public static void main(String[]args) {
         //algoritmo que calcula el area del triangulo
         float b, h, area;

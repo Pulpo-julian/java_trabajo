@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_3 {
+public class Punto_03 {
     public static void main(String[]args) {
         //algoritmo para calcular expresion
         float y1, y2, x1, x2, z;

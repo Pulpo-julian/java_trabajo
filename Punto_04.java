@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_4 {
+public class Punto_04 {
     public static void main(String[]args) {
         //algoritmo para convertir metros a pies y pulgadas
        float metros, pies, pulgadas;

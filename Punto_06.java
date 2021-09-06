@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_6 {
+public class Punto_06 {
     public static void main(String[]args) {
        //algoritmo para calcular el iva de un precio
        int precio;

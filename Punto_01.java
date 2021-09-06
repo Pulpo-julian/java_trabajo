@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_1 {
+public class Punto_01 {
     public static void main(String[]args) {
         //algoritmo que calcula el area del circulo
         double area, pi, r;

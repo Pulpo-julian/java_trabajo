@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_7 {
+public class Punto_07 {
     public static void main(String[]args) {
         //algoritmo que muestra las unidades, decenas, centenas, miles de valor numerico
         int valor, miles, cent, dec, uni;

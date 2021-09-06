@@ -1,6 +1,6 @@
 // se importa esto para poder leer y escribir datos
 import java.util.Scanner;
-public class Punto_8 {
+public class Punto_08 {
     public static void main(String[]args) {
         //algoritmo que calcula el salario y nombre de empleado
         int horasExtDi, valorDi, valorNoc, horasExtNoc, valorBas, totalQuin;
