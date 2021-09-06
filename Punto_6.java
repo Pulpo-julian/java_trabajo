@@ -4,8 +4,8 @@ public class Punto_6 {
     public static void main(String[]args) {
        //algoritmo para calcular el iva de un precio
        int precio, precioIva = 0, total = 0;
-       System.out.println("por favor ingrese su precio: ");
        Scanner sc = new Scanner(System.in);
+       System.out.println("por favor ingrese su precio: ");
        precio = sc.nextInt();
        precioIva = precio * (19/100);
        total = precioIva + precio;

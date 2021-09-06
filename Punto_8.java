@@ -22,6 +22,5 @@ public class Punto_8 {
         totalQuin = (valorDi * horasExtDi) + (valorNoc * horasExtNoc);
         System.out.println("el valor de la quincena es: " + totalQuin);
 
-
     }
 }
