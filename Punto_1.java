@@ -3,17 +3,11 @@ import java.util.Scanner;
 public class Punto_1 {
     public static void main(String[]args) {
         //algoritmo que calcula el area del circulo
-        //declaro variables float
         double area, pi, r;
-        r = 0.0f;
-        area = 0.0f;
-        pi = 3.1415f;
-        Scanner datosEntrada = new Scanner(System.in);
-        //System.out.println("por favor ingrese su nombre: ");
-        //String nombre = datosEntrada.nextLine();
-        //&System.out.println("Gracias, " + nombre);
+        pi = 3.1415;
+        Scanner sc = new Scanner(System.in);
         System.out.println(" por favor ingrese el radio: ");
-        r = datosEntrada.nextFloat();
+        r = sc.nextDouble();
         area = pi * (r * r);
         System.out.println("el area del circulo es: " + area);
     }
