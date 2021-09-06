@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Punto_1 {
     public static void main(String[]args) {
         //algoritmo que calcula el area del circulo
-        float area, pi, r;
+        //declaro variables float
+        double area, pi, r;
         r = 0.0f;
         area = 0.0f;
         pi = 3.1415f;

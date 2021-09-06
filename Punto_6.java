@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class Punto_6 {
     public static void main(String[]args) {
        //algoritmo para calcular el iva de un precio
-       int precio, precioIva = 0, total = 0;
+       int precio;
+       double precioIva, total;
        Scanner sc = new Scanner(System.in);
        System.out.println("por favor ingrese su precio: ");
        precio = sc.nextInt();
-       precioIva = precio * (19/100);
+       precioIva = precio * 0.19;
        total = precioIva + precio;
        
        System.out.println("el iva de su precio es: " + precioIva);
