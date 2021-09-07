@@ -20,6 +20,5 @@ public class Punto_10 {
         des3 = valorP3 - (valorP3 * (1.3/100));
         total = des1 + des2 + des3;
         System.out.println("el total a pagar de los 3 productos es: " + total);
-
     }
 }
